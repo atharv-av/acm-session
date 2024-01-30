@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    width: 100vw;
+    height: fit-content;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 10px;
+}
+
+.nav-item{
+    color: white;
+}
+
+#main-box{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 10px;
+}
+
+.box{
+    width: 20%;
+    border-radius: 2px;
+    border-color: gray;
+}
+
+p{
+    text-decoration-line: overline underline;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
